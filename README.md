@@ -45,4 +45,6 @@ You can obtain these API keys by signing up for the respective services:
 node index.js
 ```
 2. Once the server is running, open your browser and visit:<br>
-`http://localhost:3000/`
+```bash
+http://localhost:3000/
+```
