@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        button {
+            margin-bottom: 15px;
+            padding: 8px 16px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<form action="/weather" method="post">
+    <label for="city" style="font-size: 25px">Choose city: </label>
+    <select id="city" name="city" style="font-size: 25px">
+        <option value="0">Astana</option>
+        <option value="1">Almaty</option>
+        <option value="2">California</option>
+        <option value="3">Paris</option>
+        <option value="4">Province of Turin</option>
+    </select>
+    <button type="submit">Get weather</button>
+</form>
+</body>
+</html>
